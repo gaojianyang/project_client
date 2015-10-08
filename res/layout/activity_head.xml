@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:orientation="vertical" 
+    android:background="#e7f9f9">  
+      <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/biaoti"
+        android:background="#63b8ff"
+        
+        >
+       <TextView
+   android:id="@+id/tv_back"        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginbut"
+   
+       android:drawableLeft="@drawable/goback"
+      android:gravity="center"
+      android:padding="5dp"
+      />
+    
+    
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+   android:text="选择头像"
+   android:textColor="#ffffff"
+   android:textSize="20sp"
+      android:gravity="center"
+      android:padding="5dp"
+      android:layout_weight="1"
+            android:layout_gravity="center"
+      
+      />
+       <TextView 
+           
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="有"
+             android:textColor="#ffffff"
+   android:textSize="20sp"
+      android:gravity="center"
+      android:padding="5dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+           />
+    
+    </LinearLayout>
+        
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:gravity="center"
+      
+      >
+    <FrameLayout  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_gravity="center"
+          android:background="#ffffff"  
+       >  
+  
+        <ImageView  
+            android:id="@+id/id_content"  
+            android:layout_width="100dp"  
+            android:layout_height="100dp"  
+            android:layout_gravity="center"  
+            android:layout_margin="10dp"  
+            android:scaleType="fitXY"  
+            android:src="@drawable/ic_launcher" />  
+    </FrameLayout>  
+  
+    <com.example.UI.MyHorizontalScrollView  
+        android:id="@+id/id_horizontalScrollView"  
+        android:layout_width="wrap_content"  
+        android:layout_height="120dp"  
+        android:layout_gravity="bottom"  
+      
+        android:scrollbars="none" >  
+  
+        <LinearLayout  
+            android:id="@+id/id_gallery"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:layout_gravity="center_vertical"  
+            android:orientation="horizontal" >  
+        </LinearLayout>  
+    </com.example.UI.MyHorizontalScrollView>  
+    
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:background="@drawable/loginbut"
+        android:id="@+id/tv_surehead"
+        
+        
+        />
+    
+    </LinearLayout>
+  
+</LinearLayout>  

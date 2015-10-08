@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TianQiActivity" 
+    android:orientation="vertical">
+ <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/loginbut"
+         android:id="@+id/biaoti"
+        
+        >  <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:drawableLeft="@drawable/goback"
+      android:gravity="center"
+      android:background="@drawable/loginbut"
+            android:padding="5dp"
+      />
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="天津天气"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+      android:gravity="center"
+      android:layout_weight="1"
+      />
+          <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="天气"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+      android:gravity="center"
+    android:visibility="invisible"  />
+    </LinearLayout>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      android:id="@+id/lv_tianqi"
+    />
+
+</LinearLayout>

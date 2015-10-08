@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project_client1120"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/zhutubiao"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.project_client1120.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.RegActivity"
+            android:logo="@drawable/goback" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.MessageActivity"
+            android:label="@string/title_activity_message" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.ChatActivity"
+            android:label="@string/title_activity_chat" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.CreateClubActivity"
+            android:label="@string/title_activity_create_club" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.CreateInvActivity"
+            android:label="@string/title_activity_create_inv" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.CreateSpoActivity"
+            android:label="@string/title_activity_create_spo" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.UserInfoActivity"
+            android:logo="@drawable/goback" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.ClublistActivity"
+            android:label="@string/title_activity_clublist"
+            android:logo="@drawable/goback" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.InvlistActivity"
+            android:label="@string/title_activity_invlist"
+            android:logo="@drawable/goback" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.SpolistActivity"
+            android:label="@string/title_activity_spolist"
+            android:logo="@drawable/goback" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.InvReplyActivity"
+            android:label="@string/title_activity_inv_reply"
+            android:logo="@drawable/goback" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.FocusActivity"
+            android:label="@string/title_activity_focus" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.TabhostActivity"
+            android:label="@string/title_activity_tabhost"
+            android:launchMode="singleTask"
+            android:logo="@drawable/goback" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.SchoolActivity"
+            android:label="@string/title_activity_school" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.InvreplyActivity"
+            android:label="@string/title_activity_invreply"
+            android:logo="@drawable/goback" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.ClubActivity"
+            android:label="@string/title_activity_club"
+            android:logo="@drawable/goback" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.ClubUserActivity"
+            android:label="@string/title_activity_club_user"
+            android:logo="@drawable/goback" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.ClubinfoActivity"
+            android:label="@string/title_activity_clubinfo" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.SpoReplyActivity"
+            android:label="@string/title_activity_spo_reply" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.UserSpoActivity"
+            android:label="@string/title_activity_user_spo" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.UserInvActivity"
+            android:label="@string/title_activity_user_inv" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.UserClubActivity"
+            android:label="@string/title_activity_user_club" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.UpdateUserActivity"
+            android:label="@string/title_activity_update_user" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.UpPassActivity"
+            android:label="@string/title_activity_up_pass" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.HeadActivity"
+            android:label="@string/title_activity_head"
+            android:logo="@drawable/goback" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.SeaUserActivity"
+            android:label="@string/title_activity_sea_user" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.ShuoMingActivity"
+            android:label="@string/title_activity_shuo_ming" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.XinShengActivity"
+            android:label="@string/title_activity_xin_sheng" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.ListUserActivity"
+            android:label="@string/title_activity_list_user" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.ListInvCActivity"
+            android:label="@string/title_activity_list_inv_c" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.WebActivity"
+            android:label="@string/title_activity_web" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.HeadCActivity"
+            android:label="@string/title_activity_head_c" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.WeblistActivity"
+            android:label="@string/title_activity_weblist" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.UpSpoActivity"
+            android:label="@string/title_activity_up_spo" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.PngActivity"
+            android:label="@string/title_activity_png" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.AdminActivity"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.AdinvActivity"
+            android:label="@string/title_activity_adinv" >
+        </activity>
+
+        <service android:name="com.example.Service.MessageService" >
+        </service>
+
+        <activity
+            android:name="com.example.project_client1120.AddPngActivity"
+            android:label="@string/title_activity_add_png" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.ListSpoActivity"
+            android:label="@string/title_activity_list_spo" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.SheZhiActivity"
+            android:label="@string/title_activity_list_spo" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.RijiActivity"
+            android:label="@string/title_activity_riji" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.XieRijiActivity"
+            android:label="@string/title_activity_xie_riji" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.TianQiActivity"
+            android:label="@string/title_activity_tian_qi" >
+        </activity>
+        <activity
+            android:name="com.example.project_client1120.XiaoXiActivity"
+            android:label="@string/title_activity_xiao_xi" >
+        </activity>
+    </application>
+
+</manifest>

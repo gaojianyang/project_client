@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateInvActivity"
+    android:background="#f5fffa" 
+    android:orientation="vertical">
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/biaoti"
+        android:background="#63b8ff"
+        
+        >
+       <TextView
+   android:id="@+id/tv_back"        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginbut"
+   
+       android:drawableLeft="@drawable/goback"
+      android:gravity="center"
+      android:padding="5dp"
+      />
+    
+    
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+   android:text="发帖界面"
+   android:textColor="#ffffff"
+   android:textSize="20sp"
+      android:gravity="center"
+      android:padding="5dp"
+      android:layout_weight="1"
+            android:layout_gravity="center"
+      
+      />
+       <TextView 
+           
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="有"
+             android:textColor="#ffffff"
+   android:textSize="20sp"
+      android:gravity="center"
+      android:padding="5dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+           />
+    
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        
+        >
+
+    <LinearLayout
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="类型"
+            android:textSize="20sp"
+              android:textColor="#565656"
+              android:layout_margin="5dp"
+             />
+    
+     <Spinner
+        android:id="@+id/sp_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wubian"
+        android:layout_gravity="center"
+        
+        />
+
+       
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+       
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="标题"
+            android:textColor="#565656"
+            android:textSize="20sp"
+                          android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="输入你想要的标题吧..."
+             android:textColorHint="#bbbbbb"
+                 android:textColor="#000000"
+                         android:textSize="20sp"
+             android:lines="3"
+            android:maxLength="80"
+            android:id="@+id/et_invtitle"
+            android:background="@drawable/wubian">
+             </EditText>
+    </LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/c"
+        android:layout_marginTop="10dp"
+    >
+       
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="内容"
+            android:textSize="20sp"
+                        android:textColor="#565656"
+                                      android:layout_margin="5dp"
+                        
+          />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="请输入内容..."
+            android:textColorHint="#bbbbbb"
+            android:lines="4"
+             android:textSize="20sp"
+            android:maxLines="4"
+            android:maxLength="200"
+            android:id="@+id/et_invcontent" 
+            android:background="@drawable/wubian"
+                android:textColor="#000000"
+            />
+         
+   
+</LinearLayout>
+<ProgressBar 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:id="@+id/inv_pro"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/c"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+    >
+ 
+      
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发布"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:id="@+id/tv_sendinv"
+        android:gravity="center"
+         android:textColor="#ffffff"
+         android:layout_margin="25dp" 
+         android:layout_gravity="center"
+         android:clickable="true"
+         android:background="@drawable/loginbut"/>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

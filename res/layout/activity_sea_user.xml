@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeaUserActivity" 
+    android:orientation="vertical"
+    android:background="#f5fff5">
+    
+      
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/biaoti"
+        android:background="#63b8ff"
+        
+        >
+       <TextView
+   android:id="@+id/tv_back"        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginbut"
+   
+       android:drawableLeft="@drawable/goback"
+      android:gravity="center"
+      android:padding="5dp"
+      />
+    
+    
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+   android:text="查找"
+   android:textColor="#ffffff"
+   android:textSize="20sp"
+      android:padding="5dp"
+      android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+      
+      />
+       <TextView 
+           
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="有"
+             android:textColor="#ffffff"
+   android:textSize="20sp"
+      android:padding="5dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+           />
+    
+    </LinearLayout>
+    
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+android:padding="5dp"   android:background="#f4fff4"
+android:layout_margin="5dp"
+    >
+    
+    
+    <EditText 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/wubian"
+        android:layout_weight="1"
+        android:hint="输入要查找的用户名..."
+        android:id="@+id/et_username"
+        android:textSize="18sp"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/find48"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/tv_seauser"
+        android:layout_margin="5dp"
+        android:background="@drawable/button"
+        />
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_user"
+    android:visibility="gone"
+    >
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+<include layout="@layout/userinfo"
+    />
+</ScrollView>
+ 
+   
+    </LinearLayout>
+<TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_admin"
+    android:text="管理员"
+    android:drawableLeft="@drawable/zan03"
+    android:textColor="#79d7ee"
+    android:visibility="gone"/>
+</LinearLayout>

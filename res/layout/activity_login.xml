@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity" 
+    android:background="#f4f4f4"
+    android:orientation="vertical"
+    android:gravity="center">
+     <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+   android:layout_gravity="center"
+    android:src="@drawable/zhutubiao"
+      />
+  <LinearLayout 
+      
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="5dp"
+      >
+      <TextView 
+          
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+android:text="账号"         android:layout_gravity="center"
+         android:layout_marginRight="5dp"
+         android:textSize="25sp"
+          android:textColor="#bbbbbb"/>
+      
+    <EditText 
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColorHint="#bbbbbb"
+        android:background="@drawable/wubian"
+          android:textSize="25sp"
+        android:gravity="center|left"
+              android:textColor="#000000"
+        
+        /></LinearLayout>
+  <LinearLayout 
+      
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="5dp"
+      ><TextView 
+          android:text="密码" 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginRight="5dp"
+          android:textSize="25sp"
+          android:textColor="#bbbbbb" />
+          <EditText 
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wubian"
+        android:textSize="25sp"
+        android:gravity="center|left"
+        android:inputType="textPassword"
+         android:digits="1234567890qwertyuiopasdfghjklmnbvcxz"
+                       android:textColor="#000000"
+        
+        
+        /></LinearLayout>
+  
+  
+  
+          <TextView
+              android:id="@+id/d"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="登录"
+              android:gravity="center"
+               android:textColor="#ffffff"
+               android:textSize="25sp"
+                  android:background="@drawable/loginbut"
+             android:padding="3dp"
+             android:layout_marginTop="30dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:layout_marginBottom="10dp"
+              />
+
+   <TextView
+       android:id="@+id/e"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="注册"
+   
+        android:textSize="25sp"
+         android:textColor="#ffffff"
+         android:gravity="center"
+        android:padding="3dp"
+            android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:layout_marginBottom="10dp"
+             android:background="@drawable/loginbut"
+      
+         />
+
+  
+   
+
+</LinearLayout>

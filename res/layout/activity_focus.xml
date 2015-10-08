@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f4f4f4"
+    android:orientation="vertical"
+    tools:context=".FocusActivity" >
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@drawable/wubian"
+        android:layout_margin="10dp"
+        android:padding="8dp"
+        android:hint="查找活动"
+        android:gravity="center"
+        android:id="@+id/seaspo"
+        android:focusable="false"
+        android:clickable="true"
+        
+        />
+    
+    
+<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+      android:id="@+id/a" 
+      android:background="#ffffff" 
+      android:padding="5dp"
+    >
+    
+      <LinearLayout 
+          android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+     android:orientation="vertical"
+          android:layout_weight="1"
+                         android:layout_margin="5dp"
+       
+                  android:id="@+id/inv" 
+                  android:padding="8dp"
+                  android:background="@drawable/luntans"
+          
+          >
+         <ImageView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/xiaolian"
+             android:layout_gravity="center"
+         
+             />
+         <TextView 
+      android:layout_height="wrap_content" 
+      android:layout_width="wrap_content"
+      android:text="论坛"
+           android:textSize="18sp"
+      android:layout_margin="2dp"
+      android:textColor="#ffffff"
+android:layout_gravity="center"
+android:textStyle="bold"
+ />  
+      </LinearLayout>  
+       <LinearLayout 
+          android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+     android:orientation="vertical"
+          android:layout_weight="1"
+                 android:gravity="center"
+                  android:id="@+id/spo" 
+                  android:padding="8dp"
+                  android:layout_margin="5dp"
+                                    android:background="#e9967a"
+                  
+          
+          >
+     
+     
+    
+         <ImageView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/lanqiu"
+             android:layout_gravity="center"
+             
+             />
+         <TextView 
+      android:layout_height="wrap_content" 
+      android:layout_width="wrap_content"
+      android:text="活动"
+      android:textSize="18sp"
+      android:layout_margin="2dp"
+      android:textColor="#ffffff"
+android:layout_gravity="center"
+ />   
+    
+    </LinearLayout> 
+      <LinearLayout 
+          android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+     android:orientation="vertical"
+          android:layout_weight="1"
+         android:id="@+id/club" 
+          android:padding="8dp"
+       android:background="#bfefff"
+                       android:layout_margin="5dp"
+          
+          >
+    
+   
+        <ImageView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/qizi"
+             android:layout_gravity="center"
+             
+             />
+         <TextView 
+      android:layout_height="wrap_content" 
+      android:layout_width="wrap_content"
+      android:text="社团"
+          android:textSize="18sp"
+      android:layout_margin="2dp"
+      android:textColor="#ffffff"
+android:layout_gravity="center"
+ />  
+         </LinearLayout> 
+    </LinearLayout>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的兴趣"
+        android:textSize="12sp"
+        android:textColor="#bbbbbb"
+        android:background="#fafafa"
+        android:padding="5dp"
+android:gravity="center"        />
+    
+   
+    <com.example.UI.MainExpandableListView
+         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvuser"
+        android:cacheColorHint="#ffffff"
+        android:layout_marginBottom="40dp"
+        android:groupIndicator="@null"
+        android:background="#ffffff"
+        />
+
+</LinearLayout>

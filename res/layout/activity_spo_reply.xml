@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpoReplyActivity"
+    android:orientation="vertical"
+  >
+  <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="#63b8ff"
+         >
+       
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:drawableLeft="@drawable/goback"
+android:padding="5dp"        android:layout_gravity="center"
+      android:gravity="center"
+      android:id="@+id/tv_back"
+            android:background="@drawable/loginbut"
+      
+      /> 
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+      android:gravity="center"
+    
+      /> 
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/focus1"
+        android:id="@+id/im_user"
+        android:layout_gravity="center"
+        android:background="@drawable/loginbut"
+        android:padding="dp"
+        />
+        
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addd"
+        android:id="@+id/im_ada"
+        android:padding="5dp"
+        android:layout_gravity="center"
+                android:background="@drawable/loginbut"
+        
+        />
+    
+    
+    </LinearLayout>
+ 
+          <ProgressBar 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:id="@+id/inv_pro"
+        />
+   
+
+   
+        <ListView
+            android:id="@+id/lv_invreply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp"
+       android:cacheColorHint="#ffffff"
+            android:layout_weight="1" >
+        </ListView>
+ 
+ <include
+          layout="@layout/pagebottom" />
+        
+    <LinearLayout
+        android:id="@+id/llth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:visibility="gone"
+        >
+       
+  <EditText 
+        android:layout_margin="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/et_reply"
+        android:layout_weight="1"
+       android:focusable="false"
+        android:maxLength="200"
+        android:background="@drawable/shape"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/but_send"
+        android:drawableLeft="@drawable/sendme"
+        android:clickable="true"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        />
+   
+    </LinearLayout>
+    
+       
+   
+
+</LinearLayout>

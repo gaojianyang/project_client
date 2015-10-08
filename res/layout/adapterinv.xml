@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="afterDescendants" >
+   <LinearLayout 
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          
+        >  
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/im_invhead"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/a172"
+       />
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+              android:layout_weight="1"
+        >
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:singleLine="true"
+        android:ellipsize="end"
+        android:id="@+id/inv_name"
+      android:textSize="15sp"
+    android:textColor="#6495ed"
+    android:layout_margin="5dp"
+      android:clickable="true"
+      android:text="不是我的错"
+      />
+    
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:id="@+id/inv_createtime"
+         android:textColor="#bbbbbb"
+         android:textSize="13sp"
+         android:layout_margin="5dp"
+         android:gravity="center"
+        />
+    
+    
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        >
+        
+          <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:id="@+id/inv_time"
+         android:textColor="#bbbbbb"
+         android:textSize="18sp"
+         android:gravity="center"
+         android:layout_gravity="center"
+        
+        />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/inv_zan"
+            android:drawableLeft="@drawable/me06"
+            android:gravity="center"
+            android:textColor="#bbbbbb"
+            android:textSize="15sp"
+            android:text="30"
+            />
+        
+        
+    
+        
+        
+        
+    </LinearLayout>
+       </LinearLayout>
+  
+       
+          <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inv_title"
+        android:textSize="17sp"
+        android:textColor="#cf000000"
+       android:text="哈哈哈哈哈哈哈哈"
+       android:textStyle="normal"/>
+    
+        
+      
+   
+   
+    
+  
+    
+    
+
+</LinearLayout>

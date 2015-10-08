@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListUserActivity" 
+    android:orientation="vertical">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/biaoti"
+        android:background="#63b8ff"
+        
+        >
+       <TextView
+   android:id="@+id/tv_back"        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginbut"
+   
+       android:drawableLeft="@drawable/goback"
+      android:gravity="center"
+      android:padding="5dp"
+      />
+    
+    
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+   android:text="User"
+   android:textColor="#ffffff"
+   android:textSize="20sp"
+      android:gravity="center"
+      android:padding="5dp"
+      android:layout_weight="1"
+            android:layout_gravity="center"
+      
+      />
+       <TextView 
+           
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="有"
+             android:textColor="#ffffff"
+   android:textSize="20sp"
+      android:gravity="center"
+      android:padding="5dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+           />
+    
+    </LinearLayout>
+ <ListView 
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_margin="5dp"
+     android:id="@+id/lv_guanzhuuser"
+      android:cacheColorHint="#ffffff"
+     >
+     
+     
+     
+     
+ </ListView>
+
+</LinearLayout>

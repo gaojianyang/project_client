@@ -1,0 +1,196 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClubinfoActivity"
+    android:orientation="vertical" 
+    android:background="#f4fff4">
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/loginbut"
+android:id="@+id/biaoti"        
+        >  <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:drawableLeft="@drawable/goback"
+      android:gravity="center"
+      android:background="@drawable/loginbut"
+      android:padding="5dp"
+      />
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="#ffffff"
+        android:text="社团信息"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+      android:gravity="center"
+      android:layout_weight="1"
+      />
+               <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="#ffffff"
+        android:text="信息"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+      android:gravity="center"
+      android:visibility="invisible"
+      />
+    </LinearLayout>
+    
+    <ImageView 
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/im_clubhead"
+        android:src="@drawable/b1"
+      android:layout_gravity="center"
+      android:scaleType="fitXY"
+      android:layout_margin="20dp"
+        />
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+                android:padding="5dp"
+        
+        
+        >
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="社团名称"
+        android:textColor="#565656"
+        android:textSize="17sp"
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_clubname"
+        android:layout_gravity="center"
+        android:text="篮球社"
+        android:textColor="#000000"
+        android:textSize="20sp"
+android:layout_marginLeft="40dp"        />
+    </LinearLayout>
+    
+   
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_marginTop="2dp"
+        android:padding="5dp" >
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="成员数量"
+           android:textColor="#565656"
+           android:gravity="center"
+        android:textSize="17sp"
+          />  
+         <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="122"
+           android:textColor="#000000"
+           android:layout_marginLeft="40dp"
+        android:textSize="20sp"
+        android:id="@+id/club_number"
+          />  
+        
+       
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_marginTop="3dp"
+        android:padding="5dp" >
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="成立时间"
+           android:textColor="#565656"
+           android:gravity="center"
+        android:textSize="17sp"
+          />  
+         <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="2014—9—1"
+           android:textColor="#000000"
+           android:layout_marginLeft="40dp"
+        android:textSize="20sp"
+        android:id="@+id/club_time"
+          />  
+        
+       
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_marginTop="2dp"
+        android:padding="5dp"
+        
+        >
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="社团简介"
+        android:textColor="#565656"
+        android:textSize="17sp"
+        />
+    
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_clubintro"
+        android:layout_gravity="center"
+        android:text="不会打的进的发送到发送到放松放松放松法萨芬的发生地方是否收费"
+        android:textColor="#000000"
+        android:maxLines="4"
+        android:ellipsize="end"
+                android:textSize="20sp"
+android:layout_marginLeft="40dp" 
+         
+        /></LinearLayout>
+    <ProgressBar 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:id="@+id/clubinfo_pro"
+        />
+<TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="加入"
+    android:layout_margin="25dp"
+         android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:padding="8dp"
+                   android:gravity="center"
+                   android:layout_gravity="center"
+                   android:background="@drawable/loginbut"
+                   android:layout_marginTop="30dp"
+                   android:clickable="true"
+                   android:id="@+id/tv_joinclub"
+        
+    />
+  
+
+</LinearLayout>

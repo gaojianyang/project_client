@@ -1,0 +1,77 @@
+package com.example.utils;
+
+import java.util.List;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.example.pojo.Club;
+import com.example.project_client1120.R;
+import com.example.support.AllStatic;
+
+public class ClubAdapter  extends BaseAdapter{
+    private List<Club> list;
+LayoutInflater inflater;
+	public ClubAdapter(List<Club> list,Context context) {
+		this.list=list;
+		this.inflater=LayoutInflater.from(context);	
+		
+	}
+
+	@Override
+	public int getCount() {
+		// TODO Auto-generated method stub
+		return list.size();
+	}
+
+	@Override
+	public Object getItem(int arg0) {
+		// TODO Auto-generated method stub
+		return list.get(arg0);
+	}
+
+	@Override
+	public long getItemId(int arg0) {
+		// TODO Auto-generated method stub
+		return arg0;
+	}
+	class ViewHolder{
+		ImageView imageView;
+		TextView tv_title;
+		TextView tv_zan;
+		TextView tv_time;
+		TextView tv_name;
+
+	}
+
+	@Override
+	public View getView(int arg0, View arg1, ViewGroup arg2) {
+		// TODO Auto-generated method stub
+		ViewHolder vHolder=null;
+		if(arg1==null){
+			vHolder=new ViewHolder();
+		arg1=inflater.inflate(R.layout.adapterinv, null);
+			vHolder.imageView=(ImageView) arg1.findViewById(R.id.im_invhead);
+			vHolder.tv_title=(TextView) arg1.findViewById(R.id.inv_title);
+			vHolder.tv_zan=(TextView) arg1.findViewById(R.id.inv_zan);
+			vHolder.tv_time=(TextView) arg1.findViewById(R.id.inv_time);
+			vHolder.tv_name=(TextView) arg1.findViewById(R.id.inv_name);
+			arg1.setTag(vHolder);
+		}else{
+			vHolder=(ViewHolder) arg1.getTag();
+		}
+		vHolder.imageView.setImageResource(AllStatic.imageclub[list.get(arg0).getHead()]);
+		vHolder.tv_name.setText(list.get(arg0).getName());
+		vHolder.tv_title.setText(list.get(arg0).getIntroduce());
+		vHolder.tv_zan.setVisibility(View.GONE);
+		vHolder.tv_time.setText(list.get(arg0).getNumber()+"»À");
+		return arg1;
+	}
+
+
+}

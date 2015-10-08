@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateClubActivity"
+    android:orientation="vertical"
+    android:background="#f4f4f4" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/biaoti"
+        android:background="#63b8ff"
+        
+        >
+       <TextView
+   android:id="@+id/tv_back"        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginbut"
+   
+       android:drawableLeft="@drawable/goback"
+      android:gravity="center"
+      android:padding="5dp"
+      />
+    
+    
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+   android:text="社团信息"
+   android:textColor="#ffffff"
+   android:textSize="20sp"
+      android:gravity="center"
+      android:padding="5dp"
+      android:layout_weight="1"
+            android:layout_gravity="center"
+      
+      />
+       <TextView 
+           
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="有"
+             android:textColor="#ffffff"
+   android:textSize="20sp"
+      android:gravity="center"
+      android:padding="5dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+           />
+    
+    </LinearLayout>
+    
+    <ImageView 
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/c12"
+        android:layout_gravity="center"
+        android:id="@+id/im_chead"
+        android:layout_margin="10dp"
+        
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+         android:textSize="18sp"
+        android:id="@+id/tv_uphead"
+android:layout_gravity="center"         android:textColor="#565656"
+         android:text="@string/uphead"
+         android:background="@drawable/button"
+         
+        />
+    
+    
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+       
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="社团名称 "
+            android:textColor="#565656"
+            android:textSize="20sp"
+           />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="请输入名称"
+             android:textColorHint="#bbbbbb"
+             android:lines="2"
+                 android:textColor="#000000"
+                         android:textSize="20sp"
+            android:maxLength="60"
+            android:id="@+id/et_clubname"
+            android:background="@drawable/wubian">
+             </EditText>
+    </LinearLayout>
+    <ProgressBar 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:id="@+id/inv_pro"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+       
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="社团简介"
+            android:textSize="20sp"
+                        android:textColor="#565656"
+            
+              />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="请输入介绍"
+            android:textColorHint="#bbbbbb"
+            android:lines="4"
+             android:textSize="20sp"
+            android:maxLength="200"
+            android:id="@+id/et_introduce" 
+            android:background="@drawable/wubian"
+                android:textColor="#000000"
+                
+            />
+         
+   
+</LinearLayout>
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        android:gravity="center"
+    > 
+ 
+        
+  <TextView
+              android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建"
+        android:textSize="20sp"
+        android:id="@+id/but_creclub"
+        android:gravity="center"
+         android:textColor="#ffffff"
+         android:clickable="true"
+                  android:layout_margin="25dp"
+                  android:padding="8dp"
+         
+         android:background="@drawable/loginbut"/>
+   </LinearLayout>
+</LinearLayout>

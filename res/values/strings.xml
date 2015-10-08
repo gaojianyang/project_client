@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">校园</string>
+    <string name="hello_world">校   园</string>
+    <string name="chazhao">查找</string>
+    <string name="zan">赞</string>
+    <string name="bd">百度</string>
+    <string name="bdc">曾经还有个叫Google的 什么都可以度</string>
+    <string name="elema">饿了么</string>
+    <string name="elemac">还有个叫美团的 订餐的网站</string>
+    <string name="tb">淘宝</string>
+    <string name="tbc">还有个叫京东的 买卖东西的网站</string>
+    <string name="sina">新浪</string>
+    <string name="sinac">新闻~</string>
+    <string name="guokr">果壳网</string>
+    <string name="guokrc">可以当做冷知识看</string>
+    <string name="notitle">没找到,啥也没有</string>
+    <string name="biaoti">主题</string>
+    <string name="zhuyi">内容</string>
+    <string name="shijian">预计时间：</string>
+    <string name="renshu">还需</string>
+    <string name="ren">还需 </string>
+    <string name="tiuser">踢出去了</string>
+    <string name="noin">他好像不在里面啊</string>
+    <string name="leasttwo">回复不能少于两个字</string>
+    <string name="wangluo">网络异常</string>
+    <string name="shibai">不知道为什么,创建失败了</string>
+    <string name="shibaile">你已经在里面了</string>
+    <string name="shibailee">你没在里面</string>
+    <string name="zilian">别自恋了</string>
+    <string name="menu_settings">Settings</string>
+    <string name="guanzhu">关注</string>
+    <string name="name">姓名</string>
+    <string name="pass">密码</string>
+    <string name="uphead">更换</string>
+    <string name="loginname">用户名</string>
+    <string name="regname">请输入注册用户名</string>
+    <string name="loginpass">密码</string>
+    <string name="regpass">请输入注册的密码</string>
+    <string name="schoolfengyun">人气榜</string>
+    <string name="schoolzhouzan">应用说明</string>
+    <string name="schoolzongzan">精品帖</string>
+    <string name="schoolyuezhan">校园热帖收藏月榜</string>
+    <string name="schoolzhaoping">常用网站</string>
+    <string name="schoolxinshen">简单常识</string>
+    <string name="updatepass">请输入修改的密码</string>
+    <string name="fengexian">---------------------------</string>
+    <string name="fengexians">＊の┅∞ ┉の┅∞●の┅∞ ┉の┅∞＊</string>
+    <string name="fengexianx">＊の┅∞ ┉の┅∞●の┅∞ ┉の┅∞＊</string>
+    <string name="previous">上一页</string>
+    <string name="next">下一页</string>
+    <string name="refresh">刷新</string>
+    <string name="send">回复</string>
+    <string name="png">图片</string>
+    <string name="biaoticuowu">标题人数注意事项时间不能为空</string>
+    <string name="truetime">别逗了,输入正确的时间</string>
+    <string name="addzero">时间和分钟为个位数,要在前面加上0</string>
+    <string name="noman">一个人也没有或者已被删除</string>
+    <string name="nozhu">你不是主人</string>
+    <string name="noempty">输入不能为空</string>
+    <string name="lose">没有关注的人</string>
+    <string name="win">刷新成功</string>
+    <string name="noemptyh">家乡或者个性签名不能为空</string>
+    <string name="replyok">回复成功</string>
+    <string name="buyiyang">修改密码和重复密码不一样，重新输入</string>
+    <string name="upok">修改成功</string>
+    <string name="lastpage">这是最后一页</string>
+    <string name="firstpage">这是第一页</string>
+    <string name="fmokuai">1.论坛模块:用于大家之间的相互交流,新生有什么不懂的可以在这上面请教你们的学长学姐们,快要毕业的学生可以在这里留下一点痕迹。也可以向学校反应一下你们的意见，至于管不管用就不是本应用能负责的了。</string>
+    <string name="smokuai">2.活动模块:可以用于学校各种组织举行的活动宣传,个人的话可以在这上面找人打篮球,打游戏,竞赛找人一起啊其他什么的。</string>
+    <string name="one">1.工大西苑和东苑都有一个小南门，外面有类似集市一样的各种商店，有什么学校买不到的可以去那里买，东苑南门外集市比西苑的大很多，东西也全很多，饭店，ktv（学校电影院也在东苑）也基本都在那，路上碰到有大妈向你走来，不必惊慌，她不是想假摔，她只是想问你一句：同学，租房吗？ 你只要按你的实际需要回答她就行了，上网的话，学校里面有机房，外面也有，姚村小区里也有很多。</string>
+    <string name="shuoming">应用功能说明:</string>
+    <string name="two">2.如果要买衣服的话，坐地铁到华苑下会有一个商场，也可以坐到营口道下，那里是天津的市中心，有一条步行街，可以在那里买。当然你也可以淘宝</string>
+    <string name="three">3.如果想要旅游的话，天津没什么名胜古迹(去过一次天津站基本就没了)，我也没怎么去玩过，所以不太懂（其他了解的人可以推荐一下）。想要看风景的可以选择去北京，山东那边玩。</string>
+    <string name="four">4.个人建议，看不看随便：（只是给男生的建议）拓展一下自己的视野的话可以看《TED演讲》，喜欢听故事的可以看优酷的《罗辑思维》，电影的话给我印象最深的是《肖申克的救赎》。大学里学习当然很重要，因为你拥有的实力是你将来说话的底气，但更要的是找到人生的方向，大学只是迈入社会的第一步而已。如果大学里对自己选的课不感兴趣，那就多去接触一些其他的人和事，因为对一件事情是否感兴趣只有具体的接触过了才知道，而有了兴趣后，你需要开始学习相关知识（感兴趣很容易，而坚持下去还需要足够的勇气和毅力），明确可行的目标是在你学习的过程中产生的（熟悉它你才能知道它具体可以干什么以及怎么做），不用看不起自己，学霸之所以为学霸，我想只是因为他们在学习上有明确的目标而已，励志的话:"1.01^365=37.78 0.99^365=0.0255","你现在所拥有的安逸背后是很多人的汗水","努力只是想看看整个世界"，马云说21世纪是情商的世纪，（虽然21世纪才过去10几年，他就能用一个词总结出这个世纪的特点）但这至少说明情商在这个时代的强者看来看很重要，未来社会每个人都将变得很重要，每个人的分工也会更加明确，所以合作能力就变得很重要，所以在大学里面也要尽量和人多交流，不用害羞，这是你始终要面对的。恩，就说这么多了，大学生活快乐</string>
+    <string name="xinsh">一些简单的校园知识：</string>
+    <string name="xahaha">三年多没写过东西了，今天写一下也算自己对大学三年多生活的总结吧。大学或许是像高中老师们所说的那样让人们变得更富有知识的一个地方，是学习阶段的最高层次。在我看来，在大学里应该学到的并不仅仅是理论知识，而应该是找到自己的理想，并拥有坚持下去的勇气。在大学以前我们的学习一直在为别人而学，或者是因为老师的督促，家长对你的期望，又或者是简单的为了上一所好大学而学。然而我们以前学习的动力都随着进入大学而消失，短暂的适应新环境后，会开始尽情的玩，开始尽情地做一些以前只敢偷偷摸摸做的事，开始不懂学霸们的世界，其实学霸们之所以为学霸只是因为他们拥有自己的明确目标而已。那么怎么拥有自己的目标呢，我认为目标最好由兴趣而生，而你对一件事情是否感兴趣只有具体的接触过了才知道，所以在大学里面尽可能的去多接触一些人和事(拓展一下自己的视野的话推荐你们看TED演讲，如果喜欢听故事的话推荐你们看优酷的罗辑思维，看电影的话我没看过几部，给我印象最深的是《肖申克的救赎》  ， 《这个杀手不太冷》也挺好看的)然而当你有了兴趣是仅仅不够的，就像打游戏一样，玩这个游戏的基本上都对这个游戏有兴趣，然而高手确没有几个，人生如戏，你想要成为高手那么就要不断地汲取相关知识，拥有坚持下去的勇气。你的兴趣只是学习的动力比别人多一点而已}}</string>
+    <string name="ziyuanshuoming">应用引用声明:</string>
+    <string name="tmokuai">3.社团模块:上面会有各个社团或者同乡会的信息,任何人都可以建任何社团,只要大家有共同的兴趣爱好就行。</string>
+    <string name="yinyong">本应用的图片资源来源于网上，小图标来自iconfinder网站,作者是Ivlichev Victor Petrovich 谢谢他做的图标,至于头像和背景图片是在网上百度一个一个找出来的,不知道作者们是谁,也谢谢他们了。本应用的最终解释权归工大数学系某个学生所有</string>
+
+    <string-array name="schoolname">
+        <item>天津工业大学</item>
+        <item>天津师范大学</item>
+    </string-array>
+    <string-array name="type">
+        <item>聊天</item>
+        <item>周边推荐</item>
+        <item>留言板</item>
+        <item>校园建议</item>
+    </string-array>
+    <string-array name="yue">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="nian">
+        <item>2014</item>
+        <item>2015</item>
+    </string-array>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_chat">聊天</string>
+    <string name="title_activity_create_club">创建社团</string>
+    <string name="title_activity_create_inv">创建帖子</string>
+    <string name="title_activity_create_spo">创建活动</string>
+    <string name="title_activity_user_info">用户信息</string>
+    <string name="title_activity_clublist">校园</string>
+    <string name="title_activity_invlist">论坛</string>
+    <string name="title_activity_spolist">活动</string>
+    <string name="title_activity_inv_reply">校园</string>
+    <string name="title_activity_focus">FocusActivity</string>
+    <string name="title_activity_tabhost">校园生活</string>
+    <string name="title_activity_school">SchoolActivity</string>
+    <string name="title_activity_invreply">校园</string>
+    <string name="title_activity_club">社团</string>
+    <string name="title_activity_club_user">成员</string>
+    <string name="title_activity_clubinfo">社团介绍</string>
+    <string name="title_activity_spo_reply">校园</string>
+    <string name="title_activity_user_spo"></string>
+    <string name="title_activity_user_inv"></string>
+    <string name="title_activity_user_club"></string>
+    <string name="title_activity_search">查找</string>
+    <string name="title_activity_update_user">用户</string>
+    <string name="title_activity_up_pass">更改密码</string>
+    <string name="title_activity_head">头像</string>
+    <string name="title_activity_sea_user">查找用户</string>
+    <string name="title_activity_shuo_ming">声明</string>
+    <string name="title_activity_xin_sheng">常识</string>
+    <string name="title_activity_list_user"></string>
+    <string name="title_activity_list_inv_c"></string>
+    <string name="title_activity_web">网站</string>
+    <string name="title_activity_head_c">头像</string>
+    <string name="title_activity_weblist">常用网站</string>
+    <string name="title_activity_up_spo">UpSpoActivity</string>
+    <string name="title_activity_png">PngActivity</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_adinv">AdinvActivity</string>
+    <string name="title_activity_add_png">AddPngActivity</string>
+    <string name="title_activity_list_spo">ListSpoActivity</string>
+    <string name="title_activity_riji">RijiActivity</string>
+    <string name="title_activity_xie_riji">XieRijiActivity</string>
+    <string name="title_activity_tian_qi">TianQiActivity</string>
+    <string name="title_activity_xiao_xi">XiaoXiActivity</string>
+
+</resources>

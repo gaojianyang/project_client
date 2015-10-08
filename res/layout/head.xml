@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+      android:id="@+id/a" 
+      android:background="#c6e2ff" 
+    >
+    
+      <LinearLayout 
+          android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+     android:orientation="vertical"
+          android:layout_weight="1"
+          android:layout_margin="10dp"
+          >
+           <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inv" 
+         android:src="@drawable/inv11"
+        android:clickable="true" 
+        android:layout_gravity="center"
+       />
+         <TextView 
+      android:layout_height="wrap_content" 
+      android:layout_width="wrap_content"
+      android:text="论坛"
+      android:textSize="15sp"
+      android:textColor="#6495ed"
+android:layout_gravity="center" />  
+      </LinearLayout>  
+    
+       <LinearLayout 
+          android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+     android:orientation="vertical"
+          android:layout_weight="1"
+          android:layout_marginBottom="10dp"
+          >
+     
+     
+     <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spo" 
+       android:clickable="true"  
+       android:src="@drawable/spo11"
+       android:layout_gravity="center"
+         />
+         <TextView 
+      android:layout_height="wrap_content" 
+      android:layout_width="wrap_content"
+      android:text="活动"
+      android:textSize="15sp"
+      android:textColor="#6495ed"
+android:layout_gravity="center" />  
+    
+    </LinearLayout> 
+      <LinearLayout 
+          android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+     android:orientation="vertical"
+          android:layout_weight="1"
+          android:layout_margin="10dp"
+          >
+    
+      <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/club" 
+        android:src="@drawable/club11"
+        android:clickable="true"  
+        android:layout_gravity="center"
+        />
+       <TextView 
+      android:layout_height="wrap_content" 
+      android:layout_width="wrap_content"
+      android:text="社团"
+      android:textSize="15sp"
+      android:textColor="#6495ed"
+android:layout_gravity="center" />  
+      
+         </LinearLayout> 
+    </LinearLayout>
+    

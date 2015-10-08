@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/add3"
+        android:title="@string/menu_settings">
+        
+         <menu>
+            <item
+                android:id="@+id/club_zhengxu"
+                android:icon="@drawable/upstairs48"
+                android:orderInCategory="4"
+                android:showAsAction="ifRoom|withText"
+                android:title="正序排列"/>
+            <item
+                android:id="@+id/seach_user"
+                android:icon="@drawable/free48"
+                android:orderInCategory="5"
+                android:showAsAction="ifRoom|withText"
+                android:title="查看群成员"/>
+            <item 
+                android:id="@+id/quit_club"
+                android:icon="@drawable/window"
+                android:orderInCategory="8"
+                android:showAsAction="ifRoom|withText"
+                android:title="退出/解散社团"  />
+                <item 
+                android:id="@+id/dao_club"
+                android:icon="@drawable/downstairs48"
+                android:orderInCategory="6"
+                android:showAsAction="ifRoom|withText"
+                android:title="倒序排列"  />
+                 <item 
+                android:id="@+id/club_louzhu"
+                android:icon="@drawable/tshirt48"
+                android:orderInCategory="1"
+                android:showAsAction="ifRoom|withText"
+                android:title="只看团主"  />
+                 <item
+                android:id="@+id/club_tupian"
+                android:icon="@drawable/wall48"
+                android:orderInCategory="2"
+                android:showAsAction="ifRoom|withText"
+                android:title="查看图片"/>
+                  <item
+                android:id="@+id/club_zan"
+                android:icon="@drawable/flower48"
+                android:orderInCategory="3"
+                android:showAsAction="ifRoom|withText"
+                android:title="按赞排序"/>
+        
+          </menu>
+        
+    </item>
+    
+</menu>

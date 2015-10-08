@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ <item
+        android:id="@+id/add3"
+        android:icon="@drawable/main2"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="">
+          <item
+                android:id="@+id/spo_louzhu"
+                android:orderInCategory="3"
+                android:showAsAction="ifRoom|withText"
+                android:title="只看楼主"/>
+              <item
+                android:id="@+id/spo_renyuan"
+                android:orderInCategory="5"
+                android:showAsAction="ifRoom|withText"
+                android:title="查看成员"/>
+                <item
+                android:id="@+id/spo_daoxu"
+                android:orderInCategory="1"
+                android:showAsAction="ifRoom|withText"
+                android:title="倒序排列"/>
+                   <item
+                android:id="@+id/spo_quanbu"
+                android:orderInCategory="21"
+                android:showAsAction="ifRoom|withText"
+                android:title="正序排列"/>
+           
+     <menu>
+           
+        </menu>
+     </item>
+    <item
+        android:id="@+id/add8"
+        android:orderInCategory="100"
+        android:icon="@drawable/addd"
+        android:showAsAction="always"
+        android:title="@string/menu_settings">
+     <menu>
+         <item
+                android:id="@+id/spo_xiugai"
+                android:orderInCategory="3"
+                android:showAsAction="ifRoom|withText"
+                android:title="修改活动"/>
+          
+                     <item
+                android:id="@+id/spo_quit"
+                android:orderInCategory="5"
+                android:showAsAction="ifRoom|withText"
+                android:title="退出/解散活动"/>
+        </menu>
+     </item>
+    
+
+</menu>
